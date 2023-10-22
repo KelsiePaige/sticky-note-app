@@ -2,7 +2,7 @@
   "name": "sticky-note-app",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://kelsiepaige.github.io/sticky-note-app/",
+  "homepage": "https://kelsiepaige.github.io/sticky-note-app/src/index.js",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
