@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+}
+
+input,
+textarea {
+  outline: none;
+  resize: none;
+}
+
+.notes-list {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.app-header__title,
+.app-header__controls,
+.note {
+  margin: 15px 20px;
+}
+
+.app-header__title {
+  margin-top: 0;
+  padding-top: 20px;
+  font-family: "Permanent Marker", cursive;
+  font-size: 36px;
+  letter-spacing: 8px;
+}
+
+.app-header__controls {
+  display: flex;
+  align-items: center;
+}
+
+.search,
+.add-new {
+  font-size: 14px;
+}
+
+.search {
+  flex-grow: 1;
+  max-width: 350px;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.add-new {
+  font-family: "Inter", sans-serif;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 8px;
+  margin-right: 10px;
+  font-weight: bolder;
+  background-color: white;
+  outline: none;
+  border: 1px solid black;
+}
+
+.note {
+  font-family: "Onset", sans-serif;
+  width: 250px;
+  height: 250px;
+  background-color: rgb(255, 255, 177);
+  border-radius: 3px;
+  box-shadow: 1px 1px 5px #3a3a3a;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.note__title,
+.note__description {
+  font-family: "Shadows Into Light Two", cursive;
+  width: 100%;
+  background: transparent;
+}
+
+.note__title {
+  font-size: 20px;
+  padding: 8px;
+  font-weight: bold;
+  border: none;
+  border-bottom: 1px solid #888888;
+}
+
+.note__description {
+  flex-grow: 1;
+  font-size: 16px;
+  padding: 16px;
+  border: none;
+  line-height: auto;
+}
+
+.note__delete {
+  position: absolute;
+  top: 4px;
+  right: 0;
+  font-size: 18px;
+  color: darkgrey;
+  padding: 8px;
+}
+
+.note__delete:hover {
+  color: black;
+  cursor: pointer;
+}
