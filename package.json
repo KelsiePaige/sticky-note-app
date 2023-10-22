@@ -2,7 +2,7 @@
   "name": "sticky-note-app",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://kelsiepaige.github.io/sticky-note-app/src/index.js",
+  "homepage": "https://kelsiepaige.github.io/sticky-note-app",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
@@ -16,7 +16,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b main -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
